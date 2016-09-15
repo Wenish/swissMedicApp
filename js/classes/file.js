@@ -1,4 +1,4 @@
 var app = app || {};
-app.File = function(id, options){
+app.File = function(id, options) {
 
 };

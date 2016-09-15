@@ -1,4 +1,4 @@
 var app = app || {};
-app.User = function(){
+app.User = function() {
 
 };
