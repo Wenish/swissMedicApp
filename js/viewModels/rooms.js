@@ -24,6 +24,7 @@ app.ViewModelRooms = function() {
                     title: results[i].Title,
                     created: results[i].Created,
                     serverRelativeUrl: results[i].ServerRelativeUrl,
+                    webTemplate: results[i].WebTemplate,
                     lastItemModifiedDate: results[i].LastItemModifiedDate
                 })
                 vm.allRooms.push(room)

@@ -22,7 +22,7 @@
         <SharePoint:FormDigest ID="FormDigest1" runat="server"></SharePoint:FormDigest>
     </form>
     <div class="rooms" data-bind="foreach: rooms.allRooms">
-      <span data-bind="text: 'Room: ' + title"></span><br/>
+      <span data-bind="text: 'Room: ' + title, click: $root.activeRoom.openRoom"></span><br/>
     </div>
     <button data-bind="click: newRoom.createRoom">creat Room</button>
     <!-- js sharepoint -->
@@ -46,6 +46,7 @@
     <script src="js/viewModels/main.js"></script>
     <script src="js/viewModels/rooms.js"></script>
     <script src="js/viewModels/newRoom.js"></script>
+    <script src="js/viewModels/activeRoom.js"></script>
 
     <!-- js custom -->
     <script src="js/app.js"></script>
